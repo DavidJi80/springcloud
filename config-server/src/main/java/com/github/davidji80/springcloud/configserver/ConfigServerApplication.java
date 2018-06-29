@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @EnableConfigServer
-@EnableEurekaClient
 public class ConfigServerApplication {
 
     public static void main(String[] args) {
